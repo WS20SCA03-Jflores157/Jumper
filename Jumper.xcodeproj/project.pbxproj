@@ -15,6 +15,7 @@
 		007CEFA1247DB68A009F5402 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 007CEF9F247DB68A009F5402 /* Main.storyboard */; };
 		007CEFA3247DB68B009F5402 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 007CEFA2247DB68B009F5402 /* Assets.xcassets */; };
 		007CEFA6247DB68B009F5402 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 007CEFA4247DB68B009F5402 /* LaunchScreen.storyboard */; };
+		007CEFAE247DD11E009F5402 /* AnalogStick.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007CEFAD247DD11E009F5402 /* AnalogStick.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		007CEFA2247DB68B009F5402 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		007CEFA5247DB68B009F5402 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		007CEFA7247DB68B009F5402 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		007CEFAD247DD11E009F5402 /* AnalogStick.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalogStick.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				007CEFA2247DB68B009F5402 /* Assets.xcassets */,
 				007CEFA4247DB68B009F5402 /* LaunchScreen.storyboard */,
 				007CEFA7247DB68B009F5402 /* Info.plist */,
+				007CEFAD247DD11E009F5402 /* AnalogStick.swift */,
 			);
 			path = Jumper;
 			sourceTree = "<group>";
@@ -146,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				007CEFAE247DD11E009F5402 /* AnalogStick.swift in Sources */,
 				007CEF9C247DB68A009F5402 /* GameScene.swift in Sources */,
 				007CEF9E247DB68A009F5402 /* GameViewController.swift in Sources */,
 				007CEF96247DB68A009F5402 /* AppDelegate.swift in Sources */,
@@ -295,6 +299,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UH2SK354J5;
 				INFOPLIST_FILE = Jumper/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,7 +307,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = edu.cuny.bmcc.Jumper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -313,6 +318,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UH2SK354J5;
 				INFOPLIST_FILE = Jumper/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -320,7 +326,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = edu.cuny.bmcc.Jumper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
